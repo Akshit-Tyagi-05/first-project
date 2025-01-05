@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#nav{
+    height: 59px;
+    width: 100%;
+    background-color: rgb(228,225,225);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+    padding: 30px;
+}
+
+#nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+#center{
+    /* height: 400px; */
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 13px 80px;
+    /* font-size: 100px; */
+}
+
+#center h1{
+    font-size: 85px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+#centerIN {
+    height: 155px;
+    width: 100% ;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    /* padding: 40px 80px; */
+    /* font-size: 100px */
+    /* line-height: ; */
+    display: flex;
+    justify-content: space-between ;
+}
+
+#centerIN p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#right{
+    width: 20%;
+    /* background-color: rgb(236, 228, 228); */
+}
+
+.elem{
+    /* background-color: rgb(236, 228, 228); */
+    /* margin: 5px; */
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem i{
+    font-size: 26px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+ .elem:hover i{
+    opacity: 1 ;
+ }
+ .elem:hover {
+    background-color:  rgb(224, 240, 244);
+ }
+
+ #bottom{
+    height: 33%;
+    width: 100%;
+    background-color: bisque;
+    background-image: url(https://images.unsplash.com/photo-1508418717103-8b56bcf03360?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 26%;
+}
